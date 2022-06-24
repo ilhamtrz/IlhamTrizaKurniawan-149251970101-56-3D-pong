@@ -42,10 +42,6 @@ public class BallController : MonoBehaviour
 
     public void ResetPosition()
     {
-        /*transform.position = new Vector3(initPos.x, initPos.y, initPos.z);
-        speed = initSpeed;
-
-        rig.constraints = RigidbodyConstraints.None;*/
         manager.RemoveBall(gameObject);
     }
 
